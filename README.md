@@ -2,8 +2,8 @@
 This is a voting app project that allows users to vote for either cats or dogs. The votes are recorded in Redis and then read by a worker. The worker then sends that record to a Postgres database, and that record is reflected on the resulting app web page. The project uses Minikube.
 
 # Requirements
-1. Minikube
-2. Docker
+Minikube
+Docker
 
 # Steps
 Create pod.yml for all 5 services:
